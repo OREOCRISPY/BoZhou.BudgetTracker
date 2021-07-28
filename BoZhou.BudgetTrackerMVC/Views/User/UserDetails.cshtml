@@ -1,0 +1,75 @@
+﻿@model BoZhou.BudgetTracker.ApplicationCore.Models.UserDetailModel
+
+<div>
+    <h1>
+        User Summary
+    </h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">User Id</th>
+                <th scope="col">Total Income</th>
+                <th scope="col">Total Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.UserId</td>
+                <td>@Model.TotalIncome</td>
+                <td>@Model.TotalExpenditure</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <h1>User Income</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Income Id</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Description</th>
+                <th scope="col">Remarks</th>
+                <th scope="col">Income Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var income in Model.Incomes) 
+            {
+            <tr>
+                <td>@income.Id</td>
+                <td>@income.Amount</td>
+                <td>@income.Description</td>
+                <td>@income.Remarks</td>
+                <td>@income.IncomeDate</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div>
+    <h1>User Expenditure</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Expenditure Id</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Description</th>
+                <th scope="col">Remarks</th>
+                <th scope="col">Expenditure Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var expenditure in Model.expenditures)
+            {
+                <tr>
+                    <td>@expenditure.Id</td>
+                    <td>@expenditure.Amount</td>
+                    <td>@expenditure.Description</td>
+                    <td>@expenditure.Remarks</td>
+                    <td>@expenditure.ExpDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

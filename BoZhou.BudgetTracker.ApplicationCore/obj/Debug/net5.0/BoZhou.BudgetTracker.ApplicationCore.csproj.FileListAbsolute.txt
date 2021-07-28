@@ -1,0 +1,12 @@
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\bin\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.deps.json
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\bin\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.dll
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\bin\Debug\net5.0\ref\BoZhou.BudgetTracker.ApplicationCore.dll
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\bin\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.pdb
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.AssemblyInfo.cs
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.dll
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\ref\BoZhou.BudgetTracker.ApplicationCore.dll
+C:\Users\Bo\Desktop\Antra Project\BoZhou.BudgetTracker\BoZhou.BudgetTracker.ApplicationCore\obj\Debug\net5.0\BoZhou.BudgetTracker.ApplicationCore.pdb

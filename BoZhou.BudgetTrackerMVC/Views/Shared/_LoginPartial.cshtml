@@ -1,0 +1,31 @@
+﻿@using BoZhou.BudgetTracker.ApplicationCore.ServiceInterfaces
+@inject ICurrentUser currentUser
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="navbar-collapse collapse">
+        <ul class="navbar-nav ml-auto" style="font-size:30px">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @currentUser.Fullname
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a asp-action="Index" asp-controller="User" class="dropdown-item" asp-route-id="">View Data</a>
+                    <a asp-action="Logout" asp-controller="Account" class="dropdown-item" asp-route-id="">Log Out</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+}
+else
+{
+    <div class="navbar-collapse collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item pr-4">
+                <a class="btn btn-primary" asp-controller="Account" asp-action="Login">Login</a>
+            </li>
+            <li class="nav-item pr-4">
+                <a class="btn btn-primary" asp-controller="Account" asp-action="Register">Register</a>
+            </li>
+        </ul>
+    </div>
+}

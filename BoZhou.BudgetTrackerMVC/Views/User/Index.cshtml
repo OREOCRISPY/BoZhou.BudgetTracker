@@ -1,0 +1,68 @@
+﻿<h1>
+    welcome to user page
+</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Data Name</th>
+            <th scope="col">List Information</th>
+            <th scope="col">Modify</th>
+            <th scope="col">Delete</th>
+            <th scope="col">Add</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                User Interface
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="User" asp-action="ViewUserInfo">Users Infomation</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="User" asp-action="ModifyUserInfo">Modify Users Infomation</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="User" asp-action="DeleteUser">Delete User</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="User" asp-action="AddUser">Add User</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Income Interface
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Income" asp-action="ListIncomeInfo">Income Infomation</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Income" asp-action="ModifyIncome">Modify Income Infomation</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Income" asp-action="DeleteIncome">Delete Income</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Income" asp-action="AddIncome">Add Income</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Expenditure Interface
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Expenditure" asp-action="ListExpenditureInfo">Expenditure Infomation</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Expenditure" asp-action="ModifyExpenditure">Modify Expenditure Infomation</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Expenditure" asp-action="DeleteExpenditure">Delete Expenditure</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-controller="Expenditure" asp-action="AddExpenditure">Add Expenditure</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+

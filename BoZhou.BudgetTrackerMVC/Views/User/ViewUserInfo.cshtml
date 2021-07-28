@@ -1,0 +1,30 @@
+﻿@model List<BoZhou.BudgetTracker.ApplicationCore.Models.UserResponseModel>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">User Id</th>
+                <th scope="col">Email</th>
+                <th scope="col">User Name</th>
+                <th scope="col">Join Time</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var res in Model)
+            {
+            <tr>
+                <td>@res.Id</td>
+                <td>@res.Email</td>
+                <td>
+                    <a asp-controller="User" asp-action="UserDetails" asp-route-id="@res.Id">@res.Fullname</a>
+                </td>
+                <td>@res.JoinOn</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="User" asp-action="DeleteUserInTable" asp-route-id="@res.Id">Delete</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,32 @@
+﻿@model List<BoZhou.BudgetTracker.ApplicationCore.Models.ExpenditureResponseModel>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Expenditure Id</th>
+                <th scope="col">User Id</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Description</th>
+                <th scope="col">Remarks</th>
+                <th scope="col">Expenditure Date</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var res in Model)
+            {
+                <tr>
+                    <td>@res.Id</td>
+                    <td>@res.UserId</td>
+                    <td>@res.Amount</td>
+                    <td>@res.Description</td>
+                    <td>@res.Remarks</td>
+                    <td>@res.ExpDate</td>
+                    <td>
+                        <a class="btn btn-primary" asp-controller="Expenditure" asp-action="DeleteExpenditureInTable" asp-route-id="@res.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
